@@ -102,7 +102,7 @@ const icons = [
 const colori = [
         '#da0b0b',
         '#079c1e',
-        '#0e44af',
+        '#023e8a',
 ];
 
 

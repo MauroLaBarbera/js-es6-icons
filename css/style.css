@@ -2,14 +2,63 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;   
 }
 
 body {
-    font-family: sans-serif;
-    padding-left: 20px;
+    font-weight: 900;
+    background: #e9c46a;
+    color: #264653;
+    font-size: 28px;
+}
+
+header {
+    text-align: center;
+    background: #e76f51;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background: #2a9d8f;
+    padding: 20px;
+    color: #333;
+}
+
+main select {
+    min-width: 200px;
+    margin-left: 20px;
+    appearance: none;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+.select {
+    position: relative;
+}
+
+.select .arrow {
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    font-size: 18px;
 }
 
 .icone {
     display: flex;
-    flex-direction: column;
+    align-content: flex-start;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.icona {
+    text-align: center;
+    flex-basis: calc(100% / 4 - 20px);
+    margin: 20px 10px;
+    background: #f4a261;
+    padding: 20px;
+    border-radius: 5px;
 }
